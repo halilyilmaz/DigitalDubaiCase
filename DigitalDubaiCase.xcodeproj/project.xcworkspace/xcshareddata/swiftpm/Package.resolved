@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "32e4acdf6971f58f5ad552389cf2d7d016334eaf",
+          "version": "7.2.0"
+        }
+      },
+      {
+        "package": "MagazineLayout",
+        "repositoryURL": "https://github.com/airbnb/MagazineLayout",
+        "state": {
+          "branch": "master",
+          "revision": "9986a402e3d585eed15236363d3b56bdd4904271",
+          "version": null
+        }
+      },
+      {
+        "package": "Sheeeeeeeeet",
+        "repositoryURL": "https://github.com/danielsaidi/Sheeeeeeeeet",
+        "state": {
+          "branch": null,
+          "revision": "5f8b6b4fb427b4261023b2c1ff2d986db86b2800",
+          "version": "3.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
