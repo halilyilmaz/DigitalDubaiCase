@@ -18,7 +18,7 @@ You can show articles from NY times. You can get articles different section and 
 
 Start by pressing ⌥ + ⌘ + U to bring up the current target's test settings. Then open the Options tab and check the Code Coverage checkbox, like this:
 
-![Alt text](Readme_Files/DigitalDubaiCodeCoverage1?raw=true "Code Coverage")
+![Alt text](Readme_Files/DigitalDubaiCodeCoverage1.png "Code Coverage")
 
 And after you can see code coverage data.
-![Alt text](Readme_Files/DigitalDubaiCodeCoverage2?raw=true "Code Coverage")
+![Alt text](Readme_Files/DigitalDubaiCodeCoverage2.png "Code Coverage")
