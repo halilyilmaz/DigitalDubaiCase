@@ -88,6 +88,7 @@
 		FA5AB04B27E5B16200587C5B /* APIServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AB04A27E5B16200587C5B /* APIServiceMock.swift */; };
 		FA5AB04E27E5B3CB00587C5B /* XCTestCase+DigitalDubai.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AB04D27E5B3CB00587C5B /* XCTestCase+DigitalDubai.swift */; };
 		FA5AB05027E5BE7500587C5B /* Article+DigitalDubai.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AB04F27E5BE7500587C5B /* Article+DigitalDubai.swift */; };
+		FAFECC8727E5C72200905C44 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAFECC8627E5C72200905C44 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +191,7 @@
 		FA5AB04A27E5B16200587C5B /* APIServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceMock.swift; sourceTree = "<group>"; };
 		FA5AB04D27E5B3CB00587C5B /* XCTestCase+DigitalDubai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+DigitalDubai.swift"; sourceTree = "<group>"; };
 		FA5AB04F27E5BE7500587C5B /* Article+DigitalDubai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+DigitalDubai.swift"; sourceTree = "<group>"; };
+		FAFECC8627E5C72200905C44 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		FA5AAF4B27E4A18E00587C5B = {
 			isa = PBXGroup;
 			children = (
+				FAFECC8627E5C72200905C44 /* README.md */,
 				FA5AAF5627E4A18E00587C5B /* DigitalDubaiCase */,
 				FA5AAF6D27E4A18F00587C5B /* DigitalDubaiCaseTests */,
 				FA5AAF7727E4A18F00587C5B /* DigitalDubaiCaseUITests */,
@@ -734,6 +737,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFECC8727E5C72200905C44 /* README.md in Resources */,
 				FA5AAF6427E4A18F00587C5B /* LaunchScreen.storyboard in Resources */,
 				FA5AAF6127E4A18F00587C5B /* Assets.xcassets in Resources */,
 			);
