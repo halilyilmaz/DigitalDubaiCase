@@ -59,8 +59,8 @@ final class ArticleComponent: UICollectionViewCell, Reusable {
             .height(constant: Constants.UI.defaultHeight)
         
         descriptionLB
-            .leading(to: contentView, constant: Constants.UI.defaultLeadingPadding)
-            .top(to: contentView, constant: 12)
+            .leading(to: transparentBackgroundView, constant: Constants.UI.defaultLeadingPadding)
+            .top(to: transparentBackgroundView, constant: 12)
         
         nameLB
             .leading(to: transparentBackgroundView, constant: Constants.UI.defaultLeadingPadding)
