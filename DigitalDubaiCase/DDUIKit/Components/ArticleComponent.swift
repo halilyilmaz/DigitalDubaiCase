@@ -26,7 +26,6 @@ final class ArticleComponent: UICollectionViewCell, Reusable {
     private let articleIV: HYImageView = HYImageView(style: .aspectFill)
     private let nameLB: HYLabel = HYLabel(style: .titleWhite)
     private let transparentBackgroundView = HYView(style: .transparentBackground)
-    private let descriptionLB: HYLabel = HYLabel(style: .description)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -43,7 +42,7 @@ final class ArticleComponent: UICollectionViewCell, Reusable {
             contentView.addSubview($0)
         }
         
-        [nameLB, descriptionLB].forEach {
+        [nameLB].forEach {
             transparentBackgroundView.addSubview($0)
         }
     }
@@ -57,10 +56,6 @@ final class ArticleComponent: UICollectionViewCell, Reusable {
             .trailing(to: contentView)
             .bottom(to: contentView)
             .height(constant: Constants.UI.defaultHeight)
-        
-        descriptionLB
-            .leading(to: transparentBackgroundView, constant: Constants.UI.defaultLeadingPadding)
-            .top(to: transparentBackgroundView, constant: 12)
         
         nameLB
             .leading(to: transparentBackgroundView, constant: Constants.UI.defaultLeadingPadding)
@@ -78,7 +73,6 @@ final class ArticleComponent: UICollectionViewCell, Reusable {
         super.prepareForReuse()
         articleIV.image = nil
         nameLB.text = ""
-        descriptionLB.text = ""
     }
 }
 
